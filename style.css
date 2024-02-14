@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: white;
+}
+.srec-logo{
+    height: 50px;
+}
+.no-img{
+    border-radius: 50%;
+}
+.small{
+    height: 50px;
+}
+.head-p{
+    font-size: 0.7em;
+}
+.mini{
+    font-size: 0.7rem;
+    padding: 3px;
+}
+
+.mini-btn{
+    background-color: white;
+    border: none;
+}
+.rotate {
+    transition: transform 0.3s ease;
+}
+
+.mini-btn:hover .rotate {
+    transform: rotate(180deg);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.mini-btn:hover .dropdown-content {
+    display: block;
+}
+.scrolling-text-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .scrolling-text {
+    white-space: nowrap;
+    font-size: 12px;
+    animation: scrollText 20s linear infinite;
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+.flash-news{
+    font-size: 10px;
+    color: white;
+    background-color: red;
+    width: 125px;
+    margin-left: 12px;
+    padding: 4px;
+    margin: 5px;
+}
+.main{
+    background-color: #f9f9f9;
+}
+
+.bon-card{
+    color: #d46300;
+    padding-top: 2px;
+    margin: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.bon-card i{
+    padding-top: 5px;
+    margin-left: 5px;
+}
+.bon-card p{
+    font-weight: bold;
+}
+
+.bon-back{
+    background-color: rgb(255, 237, 194);
+    padding: 8px;
+    margin: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bon-buttons button{
+    background-color: grey;
+    color: white;
+    border-radius: 2px 2px 0px 0px;
+    font-size: 0.6rem;
+    padding: 3px;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+}
+
+.bon-buttons button:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid black 1px;
+}
+.bon-in{
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
+}
+.bon-lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.bon-lists a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.bon-lists h3{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 15px;
+    text-align: center;
+    text-shadow: 1px 1px #989898;
+}
+tbody, tr, td{
+    border: solid 1px black;
+    text-align: center;
+}
+td{
+    background-color: white;
+    color: black;
+}
+td:hover, td:hover a{
+    background-color: grey;
+    color: rgb(255, 255, 255);
+}
+
+.bon-app-out{
+    margin: 10px;
+    border: solid black 1px;
+}
+.bon-app-out h2{
+    font-size: 1.4rem;
+    margin-top: 40px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    text-shadow: 1px 1px #989898;
+    
+}
+.bon-app-in{
+    margin: 10px;
+    border: solid black 1px;
+    padding: 10px;
+}
+.bon-app-in p{
+    font-size: 0.8rem;
+}
+
+.bon-app-in form label{
+    font-weight: bolder;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+.bon-app-in form input{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(199, 199, 199);
+    padding: 4px;
+}
+
+.send-btn{
+    background-color: rgb(0, 190, 0);
+    font-size: 0.9rem;
+    padding: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bolder;
+}
